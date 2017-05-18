@@ -1,0 +1,69 @@
+        #body {
+            background-image: url(../img/stars.gif);
+            height: 600px;
+        }
+        
+        #main {
+            width: 80%;
+            height: 100%;
+            background-color: white;
+            border: 4px groove black;
+            margin: -110px auto;
+        }
+        
+        img {
+            width: 200px;
+            height: 150px;
+            display: none;
+            position: absolute;
+            top: 200px;
+            left: 560px;
+        }
+        
+        #but {
+            top: 45%;
+            left: 36%;
+            font-family: 'Faster One';
+            width: 350px;
+            height: 100px;
+            font-size: 65pt;
+            color: darkslateblue;
+            background-color: palegreen;
+            border-radius: 20px;
+            position: absolute;
+        }
+        
+        #but:active,
+        #but:focus {
+            outline: none;
+        }
+        
+        #h1 {
+            color: aliceblue;
+        }
+        
+        #h2 {
+            color: aliceblue;
+        }
+        
+        #blink2 {
+            font-size: 50pt;
+            top: 35%;
+            left: 36%;
+            position: absolute;
+            display: none;
+            animation: blink2 1s linear infinite;
+        }
+        
+        @keyframes blink2 {
+            100% {
+                color: red;
+            }
+        }
+        
+        #run {
+            color: rebeccapurple;
+            margin-top: 140px;
+            font-size: 45pt;
+            font-family: 'Faster One';
+        }
